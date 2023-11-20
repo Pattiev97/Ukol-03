@@ -6,7 +6,7 @@ function parseDate(date) {
 const datum = parseDate('20.08.2023')
 
 document.body.innerHTML = `
-<p>Day: ${datum.day}</p>
-<p>Month: ${datum.month}</p>
-<p>Year: ${datum.year}</p>
+<p>Day: ${parseInt(datum.day)}</p>
+<p>Month: ${parseInt(datum.month)}</p>
+<p>Year: ${parseInt(datum.year)}</p>
 `
